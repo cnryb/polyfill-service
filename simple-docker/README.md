@@ -1,3 +1,3 @@
 
 
-docker build -f simple-docker/Dockerfile -t polyfill-service .
+docker build --network host -f simple-docker/Dockerfile -t polyfill-service .
